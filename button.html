@@ -1,0 +1,70 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Team</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://ngix.com' rel='canonical'/>
+  <link rel="icon" type="image/png"
+        href="https://www.nginx.com/wp-content/uploads/2019/10/favicon-48x48.ico" sizes="48x48">
+  <link rel="icon" type="image/png"
+        href="https://www.nginx.com/wp-content/uploads/2019/10/favicon-64x46.ico" sizes="64x64">
+	<script> var message="Maaf,, Dilarang Klik Kanan Di Situs Ini!";
+    ///////////////////////////////////
+    function clickIE4(){if (event.button==2){alert(message);return false;}} function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function("alert(message);return false")</script>
+    </head>
+    <body onload="muatDaftarData();">
+        		 <script>
+    /*function check(e)
+    {
+    alert(e.keyCode);
+    }*/
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 73 || e.keyCode === 83 || e.keyCode === 123 || e.keyCode === 117 || e.keyCode === 85)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('not allowed');
+            }
+            return false;
+    };
+    </script>
+	<div id="container">
+    	<div id="header">
+        	<div id="logo">
+            	<img src="https://www.geocities.ws/json14/n.gif" alt="Girl in a jacket" width="70" height="70">
+				<img src="logo1.png" width="200" height="100">
+            </div>
+            <div id="info">
+            	<img src="user.png">
+                Selamat Datang Admin!<br>
+                Anda Mendapat <a href="#">8</a> Pesan Baru<br>
+                <a href="login.html">Keluar</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <div id="menu">
+            <a class="left" href="index.html"><img src="home.png">Generat Pots</a>
+			<a class="center selected" href="button.html"><img src="menu2.png">Link Pots</a>
+            <a class="right" href="web.html" target="_blank"><img src="menu4.png">My Website</a>
+        </div>
+        </div>
+        
+        <div id="content">
+        	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+            	<tr valign="top">
+                	<td width="75%" style="padding-right:20px;">
+                		<div id="body">
+						<iframe src="app2.html" style="height:500px;width:990px" title="Iframe Example"></iframe>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="footer">
+<center><a>
+          <img src="icon.ico" width="24" height="24">
+        </a>
+        © <span id="year">2020</span> NGINX | Ajor. All rights reserved.
+      </center>
+        </div>
+    </div>
+
+</body>
+</html>
